@@ -7,3 +7,7 @@ require("packer").startup(function(use)
 
 end) 
 
+-- set shotcut key
+
+vim.keymap.set('i', '<C-,>' , '<ESC>A' , { dosc = 'Jump to end if the line'})
+
